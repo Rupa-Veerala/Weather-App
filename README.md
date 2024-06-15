@@ -1,4 +1,4 @@
-# WEATHER APP
+# WEATHER APP 🌦🌦
 
 **About**
 
