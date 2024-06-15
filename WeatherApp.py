@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import *
 from geopy.geocoders import Nominatim
 from tkinter import ttk, messagebox
+from geopy.geocoders import OpenCage
 from timezonefinder import TimezoneFinder
 from datetime import datetime
 import requests
@@ -13,7 +14,7 @@ root.geometry("900x500+300+200")
 root.resizable(False,False)
 
 def getWeather():
-    #try:
+    try:
         city = textfield.get()
 
         geolocator = Nominatim(user_agent="geoapiExercises")
@@ -29,7 +30,7 @@ def getWeather():
     
 
         #weather
-        api="https://api.openweathermap.org/data/3.0/onecall?lat={-90;90}&lon={-180;180}&exclude={cuurent}&appid=143ff297158654c234b7fe087b2a1938"
+        api="https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=143ff297158654c234b7fe087b2a1938"
 
         json_data=requests.get(api).json()
         condition = json_data['weather'][0]['main']
@@ -47,8 +48,8 @@ def getWeather():
         d.config(text=description)
         p.config(text=pressure)
 
-    #except Exception as e:
-        #messagebox.showerror("Weather App","Invalid Entry!!")
+    except Exception as e:
+        messagebox.showerror("Weather App","Invalid Entry!!")
 
 #search box
 Search_image=PhotoImage(file="search.png")
