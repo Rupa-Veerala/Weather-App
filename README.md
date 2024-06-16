@@ -7,9 +7,6 @@ We can find weather reports such as temperature, humidity, pressure, wind speed 
 **Required modules**
 
   pip install pytz 
-  
   pip install geopy
-  
   pip install timezonefinder
-  
   pip install requests 
