@@ -19,17 +19,17 @@
 
     From "openweathermap"
 
-     **CODE EXPLAINATION ☁☁🔻**
+**CODE EXPLAINATION ☁☁🔻**
 
-1. it will take input(city name) from user and convert it to longitude and latitude
+    1. it will take input(city name) from user and convert it to longitude and latitude
    
-2. it will convert longitude and latitude to time zone and clock.
+    2. it will convert longitude and latitude to time zone and clock.
 
-3. now we will use longitude and latitude in api link to get data from OpenweathermapApi.
+    3. now we will use longitude and latitude in api link to get data from OpenweathermapApi.
    
-4. you can import data like, temperature , climate, wind speed, pressure, cloud, image, humidity and many other things you want.
+    4. you can import data like, temperature , climate, wind speed, pressure, cloud, image, humidity and many other things you want.
    
-5. Finally we get current weather, time, temperature, humidity, wind, pressure.
+    5. Finally we get current weather, time, temperature, humidity, wind, pressure.
 
 **OUTPUTS**
 
