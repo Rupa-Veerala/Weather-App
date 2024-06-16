@@ -19,7 +19,7 @@
 
     From "openweathermap"
 
-**CODE EXPLAINATION ☁☁🔻**
+**CODE EXPLAINATION ☁☁**
 
     1. it will take input(city name) from user and convert it to longitude and latitude
    
