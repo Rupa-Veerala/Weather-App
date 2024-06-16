@@ -34,4 +34,8 @@
 **OUTPUTS**
 
     ![image](https://github.com/Rupa-Veerala/Weather-App/assets/102415108/be48cb41-1c99-420e-80c8-1c7d117595a6)
+![image](https://github.com/Rupa-Veerala/Weather-App/assets/102415108/ed0d7a7c-47c5-45b8-a6c2-d19ebf24f652)
+![image](https://github.com/Rupa-Veerala/Weather-App/assets/102415108/97e140fb-2474-454c-91b7-3a1234a17ab7)
+
+
     
