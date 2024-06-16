@@ -33,3 +33,5 @@
 
 **OUTPUTS**
 
+    ![image](https://github.com/Rupa-Veerala/Weather-App/assets/102415108/be48cb41-1c99-420e-80c8-1c7d117595a6)
+    
